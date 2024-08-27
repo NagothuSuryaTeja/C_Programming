@@ -20,6 +20,7 @@ int distance()
 int main()
 {
     int i,t=1;
+    printf("enter the number of test cases : ");
     scanf("%d",&t);
     for(i=0;i<t;i++)
     {
