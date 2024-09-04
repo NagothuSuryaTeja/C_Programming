@@ -5,13 +5,13 @@ int factorial()
     printf("Enter the number : ");
     scanf("%d",&n);
     int recursion(int n)
-    {
-        if(n==0 || n==1)
         {
-            return 1;
+            if(n==0 || n==1)
+            {
+                return 1;
+            }
+            return n*recursion(n-1);
         }
-        return n*recursion(n-1);
-    }
     printf("%d\n",recursion(n));
     return n;
 }
