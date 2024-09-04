@@ -7,7 +7,7 @@ int solve()
     int Sum_of_NaturalNumbers(int n)
     {
         int Sum;
-        return Sum=(n*(n+1))/2;
+        return Sum =(n*(n+1))/2;
     }
     printf("%d\n",Sum_of_NaturalNumbers(n));
 }
