@@ -14,9 +14,12 @@ int solve()
         {
             printf("not leaf\n");
         }
-        else
+        else if (n%4==0)
         {
             printf("leaf\n");
+        }
+        else{
+            printf("not leaf\n");
         }
     }
     Leaf_Year(n);
